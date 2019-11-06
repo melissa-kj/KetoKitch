@@ -1,4 +1,4 @@
-package com.ketokitch.KetoKitch.models;
+package com.example.KetoKitch.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -19,13 +19,16 @@ public class UserProfile {
     @Column
     private String mobile;
 
+    @Column
+    private String address;
+
     @JsonIgnore
     @OneToOne(mappedBy = "userProfile",
-    cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
-
+            cascade = {CascadeType.DETACH, CascadeType.MERGE,
+                    CascadeType.PERSIST, CascadeType.REFRESH})
     private User user;
 
-    public UserProfile(){}
+    public UserProfile() {}
 
     public User getUser() { return user; }
 
@@ -52,4 +55,13 @@ public class UserProfile {
     public void setMobile(String mobile) {
         this.mobile = mobile;
     }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
 }

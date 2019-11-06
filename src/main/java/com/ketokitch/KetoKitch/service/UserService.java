@@ -1,17 +1,18 @@
-package com.ketokitch.KetoKitch.service;
+package com.example.KetoKitch.service;
 
-import com.ketokitch.KetoKitch.models.User;
+import com.example.KetoKitch.models.User;
 import org.springframework.http.HttpStatus;
+import org.springframework.security.core.userdetails.UserDetailsService;
 
-public interface UserService {
+public interface UserService extends UserDetailsService{
 
     public User getUser(String username);
 
     public Iterable<User> listUsers();
 
-    public User createUser(User newUser);
+    public String createUser(User newUser);
 
-    public User login(String username, String password);
+    public String login(User user);
 
     public HttpStatus deleteById(Long userId);
 

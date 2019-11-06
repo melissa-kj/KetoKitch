@@ -1,6 +1,6 @@
-package com.ketokitch.KetoKitch.repositories;
+package com.example.KetoKitch.repositories;
 
-import com.ketokitch.KetoKitch.models.UserProfile;
+import com.example.KetoKitch.models.UserProfile;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
@@ -10,4 +10,3 @@ public interface UserProfileRepository extends CrudRepository<UserProfile, Long>
     public UserProfile findProfileByUsername(String username);
 
 }
-

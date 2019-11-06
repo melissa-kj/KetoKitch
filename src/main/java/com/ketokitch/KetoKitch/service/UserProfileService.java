@@ -1,6 +1,6 @@
-package com.ketokitch.KetoKitch.service;
+package com.example.KetoKitch.service;
 
-import com.ketokitch.KetoKitch.models.UserProfile;
+import com.example.KetoKitch.models.UserProfile;
 
 public interface UserProfileService {
 

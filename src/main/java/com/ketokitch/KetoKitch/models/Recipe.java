@@ -1,6 +1,7 @@
-package com.ketokitch.KetoKitch.models;
+package com.example.KetoKitch.models;
 
 import javax.persistence.*;
+
 import java.util.List;
 
 @Entity
@@ -25,12 +26,6 @@ public class Recipe {
     private Integer prep_min;
 
     @Column
-    private Integer cook_min;
-
-    @Column
-    private Integer total_min;
-
-    @Column
     private String ingredients;
 
     @Column
@@ -43,11 +38,11 @@ public class Recipe {
     private String keywords;
 
     @ManyToMany(fetch = FetchType.LAZY,
-    cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.REFRESH})
+            cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.REFRESH})
 
     @JoinTable(name = "user_recipes",
-    joinColumns = {@JoinColumn(name = "recipe_id")},
-    inverseJoinColumns = @JoinColumn(name = "user_id"))
+            joinColumns = {@JoinColumn(name = "recipe_id")},
+            inverseJoinColumns = @JoinColumn(name = "user_id"))
 
     private List<User> users;
 
@@ -76,14 +71,6 @@ public class Recipe {
     public int getPrepMin() { return prep_min; }
 
     public void setPrepMin(int prep_min) { this.prep_min = prep_min; }
-
-    public int getCookMin() { return cook_min; }
-
-    public void setCookMin(int cook_min) { this.cook_min = cook_min; }
-
-    public int getTotalMin() { return total_min; }
-
-    public void setTotalMin(int total_min) { this.total_min = total_min; }
 
     public String getIngredients() { return ingredients; }
 
