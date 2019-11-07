@@ -31,7 +31,10 @@ public class Recipe {
     private String course;
 
     @Column
-    private Integer prep_min;
+    private int prep_min;
+
+    @Column
+    private String net_carbs;
 
     @Column
     private String ingredients;
@@ -106,6 +109,10 @@ public class Recipe {
     public int getPrepMin() { return prep_min; }
 
     public void setPrepMin(int prep_min) { this.prep_min = prep_min; }
+
+    public String getNetCarbs() { return net_carbs; }
+
+    public void setNetCarbs(String net_carbs) { this.net_carbs = net_carbs; }
 
     public String getIngredients() { return ingredients; }
 

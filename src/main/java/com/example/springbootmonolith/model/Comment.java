@@ -34,7 +34,7 @@ public class Comment {
     private User user;
 
     /**
-     * comment table references post_id join column.
+     * comment table references recipe_id join column.
      */
     @ManyToOne(cascade = {CascadeType.DETACH,
             CascadeType.MERGE, CascadeType.REFRESH})
