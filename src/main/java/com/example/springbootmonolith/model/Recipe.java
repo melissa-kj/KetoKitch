@@ -43,9 +43,6 @@ public class Recipe {
     private String instructions;
 
     @Column
-    private String difficulty;
-
-    @Column
     private String keywords;
 
 
@@ -121,10 +118,6 @@ public class Recipe {
     public String getInstructions() { return instructions; }
 
     public void setInstructions(String instructions) { this.instructions = instructions; }
-
-    public String getDifficulty() { return difficulty; }
-
-    public void setDifficulty(String difficulty) { this.difficulty = difficulty; }
 
     public String getKeywords() { return keywords; }
 
