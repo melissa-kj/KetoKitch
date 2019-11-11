@@ -21,6 +21,12 @@ public class UserProfile {
     private Long id;
 
     @Column
+    private String firstName;
+
+    @Column
+    private String lastName;
+
+    @Column
     private String location;
 
     @Column
@@ -29,9 +35,6 @@ public class UserProfile {
     @Column
     private String bio;
 
-//    @Column
-//    private String profilePic;
-//    will determine whether or not to implement this functionality at a later date
 
     /**
      * userProfile is referenced by user table user_profile_id join column.
@@ -56,6 +59,14 @@ public class UserProfile {
     public void setId(Long id) {
         this.id = id;
     }
+
+    public String getFirstName() { return firstName; }
+
+    public void setFirstName(String firstName) { this.firstName = firstName; }
+
+    public String getLastName() { return lastName; }
+
+    public void setLastName(String lastName) { this.lastName = lastName; }
 
     public String getLocation() {
         return location;
