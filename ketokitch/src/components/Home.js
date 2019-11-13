@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { Component } from "react";
+import Signup from "./Signup";
 
+export default class Home extends Component {
 
-export const Home = () => (
-    <div>
-        <h2> Welcome to the Keto Kitch </h2>
-        <h3> Share your favorite low-carb recipes and find new ones to love! </h3>
-    </div>
-  )
+  render() {
+    return (
+      <div>
+        <h1>keto kitch home </h1>
+        <h1>keto kitch home </h1>
+        <Signup />
+      </div>
+    );
+  }
+}
+// STOP ARGUING FOR YOUR LIMITATIONS. I AM NOT POWERLESS. //

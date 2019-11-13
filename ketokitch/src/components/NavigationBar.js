@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { Component } from 'react';
+// import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-router-dom';
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
 
@@ -26,8 +27,9 @@ export const NavigationBar = (props) => (
       <Navbar.Collapse id="basic-nav-bar">
         <Nav className = "ml-auto">
           <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link href="/profile">Profile</Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link href="/recipe">Recipes</Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link href="/profile">Your Profile</Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link href="/browse">Browse</Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link href="/logout">Logout</Nav.Link></Nav.Item>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

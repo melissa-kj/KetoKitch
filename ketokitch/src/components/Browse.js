@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-router-dom';
 
+//needs navbar on this page 
+class Browse extends Component {
+  render() {
+    return (
+      <div>
+          <h2> Browse Recipes </h2>
 
-export const Browse = () => (
-    <div>
-        <h2> Browse Recipes </h2>
-  
-    </div>
-  )
+      </div>
+    );
+  }
+}
+export default Browse;

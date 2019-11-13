@@ -23,7 +23,7 @@ public class UserServiceImpl implements UserService{
     UserRepository userRepository;
 
     /**
-     * Autowiring postRepository for addPost functionality
+     * Autowiring recipeRepository for addRecipe functionality
      */
     @Autowired
     RecipeRepository recipeRepository;
