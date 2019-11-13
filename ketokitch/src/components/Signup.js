@@ -35,6 +35,11 @@ handleSubmit(event) {
       username: username,
       password: password,
       loggedIn: true
+  }).then(response => {
+    console.log("signup response", response);
+  })
+  .catch(error => {
+    console.log("signup error", error);
   })
   console.log("form submitted");
   event.preventDefault();
