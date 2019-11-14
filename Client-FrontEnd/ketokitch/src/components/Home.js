@@ -3,6 +3,17 @@ import Signup from "./Signup";
 import Login from "./Login";
 
 export default class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      user: {
+        email: "",
+        username: "",
+        password: ""
+      },
+      loggedIn: false
+    }
+  }
 
   render() {
     return (
@@ -15,4 +26,3 @@ export default class Home extends Component {
     );
   }
 }
-// STOP ARGUING FOR YOUR LIMITATIONS. I AM NOT POWERLESS. //
