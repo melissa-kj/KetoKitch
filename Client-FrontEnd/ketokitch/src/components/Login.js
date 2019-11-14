@@ -1,75 +1,40 @@
-import React, { Component } from 'react';
+import React from 'react';
 // import Home from './components/Home';
 
 
-export default class Login extends Component {
-constructor(props) {
-  super(props);
-
-  this.state = {
-    username: "",
-    password: "",
-    loggedIn: false
-  }
-
-  this.handleSubmit = this.handleSubmit.bind(this);
-  this.handleChange = this.handleChange.bind(this);
-}
-handleChange(event) {
-  this.setState({
-    [event.target.name]: event.target.value
-  });
-  console.log("handle change", event);
-}
-handleSubmit(event) {
-  const {
-    username,
-    password
-  } = this.state;
-
-  axios.post("http://localhost:8080/login", {
-      username: username,
-      password: password,
-      loggedIn: true
-  }).then(response => {
-    localStorage.setItem('user', response.token);
-    console.log("login response", response);
-  })
-  .catch(error => {
-    console.log("login error", error);
-  })
-  console.log("login successful");
-  event.preventDefault();
-}
-
-  render() {
+const Login = (props) => {
     return (
       <div>
-        <form onSubmit={this.handleSubmit}>
+        <h3> Login </h3>
+        <form onSubmit={e => props.submitForm(e)}>
+
             <input
               type="text"
               name="username"
               placeholder="Username"
-              value={this.state.username}
-              onChange={this.handleChange}
+              value={props.username}
+              onChange={props.handleUsernameChange}
               required
             />
+
             <input
               type="password"
               name="password"
               placeholder="Password"
-              value={this.state.password}
-              onChange={this.handleChange}
+              value={props.password}
+              onChange={props.handlePasswordChange}
               required
             />
 
-          <button type="submit">Login</button>
+            <input className="submit" type="submit" value="Login"/>
 
         </form>
       </div>
     );
   }
-}
+export default Login;
+
+
 // .then(response => {
 // createRecipe();
 // })
