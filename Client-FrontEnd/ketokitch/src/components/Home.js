@@ -1,9 +1,11 @@
 import React, { Component } from "react";
-import Signup from "./Signup";
+import Button from 'react-bootstrap';
+import ReactDom from 'react-dom';
+
 import Login from "./Login";
 
-export default class Home extends Component {
-  // attempting to set state for both login and signup here 
+class Home extends Component {
+  // attempting to set state for both login and signup here
   constructor(props) {
     super(props);
     this.state = {
@@ -13,6 +15,13 @@ export default class Home extends Component {
         password: ""
       },
       loggedIn: false
+    }
+    this.routeLogin = this.routeLogin.bind(this);
+    this.routeSignup = this.routeSignup.bind(this);
+
+    routeLogin() {
+      let path=`/login`;
+      this.props.history.push(path);
     }
   }
   LogOn = (e) => {
@@ -33,7 +42,7 @@ export default class Home extends Component {
       return res.json();
     })
     .then(res => {
-      console.log(res, "Token successful");
+      console.log(res, "Token success");
       this.setState({
         user: {... this.state.user},
         loggedIn: true,
@@ -44,14 +53,39 @@ export default class Home extends Component {
       console.log(error);
     })
   }
+  handleEmailChange = e => {
+    this.setState({user: {... this.state.user, email:
+    e.target.value}
+  });
+}
+  handleUsernameChange = e => {
+    this.setState({user: {... this.state.user, username:
+    e.target.value}
+  });
+}
+  handlePasswordChange = e => {
+    this.setState({user: {... this.state.user, password:
+    e.target.value}
+  });
+}
   render() {
     return (
       <div>
-        <h1>keto kitch</h1>
-        <h1> home </h1>
-        <Signup />
-        <Login />
+        <h1>welcome to the keto kitch </h1>
+        <Login
+        username={this.state.username}
+        password={this.state.password}
+        handleUsernameChange={this.handleUsernameChange}
+        handlePasswordChange={this.handlePasswordChange}
+        submitForm={e => this.LogOn(e)} />
+
+        <Signup
+        email={this.state.email}
+        username={this.state.username}
+        password={this.state.password}
+
       </div>
     );
   }
 }
+export default withRouter (Home);
