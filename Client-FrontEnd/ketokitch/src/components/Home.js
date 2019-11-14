@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import ReactDom from 'react-dom';
+import Layout from './Layout';
 
 import Login from "./Login";
 import Signup from "./Signup";
 
 class Home extends Component {
-  // attempting to set state for both login and signup on home page
+  // state for both login and signup on home page
   constructor(props) {
     super(props);
     this.state = {
@@ -39,16 +39,16 @@ class Home extends Component {
         password: this.state.user.password
       })
     })
-    .then(res => {
-      return res.json();
+    .then(response => {
+      return response.json();
     })
-    .then(res => {
-      console.log(res, "Token success");
+    .then(response => {
+      console.log(response, "Token success");
       this.setState({
         user: {... this.state.user},
         loggedIn: true,
       })
-      localStorage.setItem('user', res.token);
+      localStorage.setItem('user', response.token);
     })
     .catch(error => {
       console.log(error);
@@ -69,16 +69,16 @@ class Home extends Component {
         password: this.state.user.password
         })
       })
-      .then(res => {
-        return res.json();
+      .then(response => {
+        return response.json();
       })
-      .then(res => {
-        console.log(res, "Token successful");
+      .then(response => {
+        console.log(response, "Token successful");
         this.setState({
           user: {...this.state.user},
           loggedIn: true
         });
-        localStorage.setItem('user', res.token);
+        localStorage.setItem('user', response.token);
       })
       .catch(err => {
         console.log(err);
@@ -103,6 +103,7 @@ class Home extends Component {
   render() {
     return (
       <div>
+      <Layout>
         <h1>welcome to the keto kitch </h1>
         <Login
         username={this.state.username}
@@ -119,7 +120,7 @@ class Home extends Component {
         handleUsernameChange={this.handleUsernameChange}
         handlePasswordChange={this.handlePasswordChange}
         submitForm={e => this.Register(e)}/>
-
+      </Layout>
       </div>
     );
   }

@@ -1,12 +1,50 @@
 import React, { Component } from 'react';
 // import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-router-dom';
+import Layout from './Layout';
+import NavigationBar from './NavigationBar';
 
 
 class Profile extends Component {
+  constructor(props){
+  super(props);
+  this.state = {
+    user: [],
+    userLoaded: false
+  }
+}
+showUserProfile = (e) => {
+  e.preventDefault();
+  fetch("http://localhost:8080/user", {
+    method: 'GET',
+    headers: {
+      'Authorization':'Bearer ' + localStorage.getItem('user'),
+      'Content-Type':'application/json'
+    }
+  })
+  .then(res => {
+    return res.json();
+  })
+  .then(res => {
+    console.log(res);
+    this.setState({
+      user: res,
+      userLoaded: true,
+    })
+  })
+}
   render() {
     return (
+      <div>
+        <NavigationBar />
+          <Layout>
+            <h4> Your Profile </h4>
+          </Layout>
+      </div>
+    )
+  }
+}
+export default Profile;
 
-        <h2> Your Profile </h2>
 //
 //
 //         <h3>UPLOAD A RECIPE</h3>
@@ -36,8 +74,3 @@ class Profile extends Component {
 //   <input type="submit" value="create"/>
 // </form>
 // </div>
-
-  )
-}
-}
-export default Profile;

@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
   .navbar {
-    background-color: #333;
+    background-color: rgba(112, 90, 149, 0.7);
   }
 
   .navbar-brand, .navbar-nav, .nav-link {
@@ -18,7 +18,7 @@ const Styles = styled.div`
 
 `;
 
-export const NavigationBar = (props) => (
+const NavigationBar = (props) => (
 
   <Styles>
     <Navbar expand="lg">
@@ -27,6 +27,7 @@ export const NavigationBar = (props) => (
       <Navbar.Collapse id="basic-nav-bar">
         <Nav className = "ml-auto">
           <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link href="/dashboard">Home</Nav.Link></Nav.Item>
           <Nav.Item><Nav.Link href="/profile">Your Profile</Nav.Link></Nav.Item>
           <Nav.Item><Nav.Link href="/browse">Browse</Nav.Link></Nav.Item>
           <Nav.Item><Nav.Link href="/logout">Logout</Nav.Link></Nav.Item>
@@ -36,3 +37,4 @@ export const NavigationBar = (props) => (
   </Styles>
 
 )
+export default NavigationBar;

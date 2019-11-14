@@ -1,37 +1,32 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 import Home from './components/Home';
 import Dashboard from './components/Dashboard';
+import Profile from './components/Profile';
+import Browse from './components/Browse';
+import Logout from './components/Logout';
 
 
 
-export default class App extends Component {
-
-  constructor() {
-    super();
-
-    this.state = {
-      loggedIn: false,
-      user: {}
-    }
-  }
+ class App extends Component {
   render() {
     return (
       <div className="app">
         <Router>
           <Switch>
-            <Route
-            exact
-            path={"/"}
-            render={props => (
-              <Home {...props} loggedIn={this.state.loggedIn} />
-            )}
-             />
-            <Route path={"/dashboard"} component={Dashboard} />
+            <Route exact path="/" component={Home}  />
+            <Route path="/dashboard" component={Dashboard} />
+            <Route path="/profile" component={Profile} />
+            <Route path="/browse" component={Browse} />
+            <Route path="/logout" component={Logout} />
+            // <Route path="/dashboard" component={Dashboard} />
+            // <Route path="/dashboard" component={Dashboard} />
+            // <Route path="/dashboard" component={Dashboard} />
           </Switch>
         </Router>
       </div>
     );
   }
 }
+export default App;
