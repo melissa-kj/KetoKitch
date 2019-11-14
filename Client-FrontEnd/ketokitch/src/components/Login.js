@@ -1,10 +1,15 @@
 import React from 'react';
-// import Home from './components/Home';
+import {  Link, NavLink } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
+
+
+import Home from './Home';
+import Layout from './Layout';
 
 
 const Login = (props) => {
     return (
-      <div>
+      <Layout>
         <h3> Login </h3>
         <form onSubmit={e => props.submitForm(e)}>
 
@@ -26,10 +31,10 @@ const Login = (props) => {
               required
             />
 
-            <input className="submit" type="submit" value="Login"/>
+          <Button variant="dark" type="submit" value="Login">Login </Button>
 
         </form>
-      </div>
+      </Layout>
     );
   }
 export default Login;

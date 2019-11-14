@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
-// import Home from './components/Home';
+import {  Link, NavLink } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
+
+import Home from './Home';
+import Layout from './Layout';
 
 
 const Signup = (props) => {
     return (
-      <div>
+      <Layout>
         <h3>New here? Create an account below!</h3>
         <form onSubmit={e => props.submitForm(e)}>
             <input
@@ -32,10 +36,11 @@ const Signup = (props) => {
               required
             />
 
-            <input className="submit" type="submit" value="Signup"/>
+            <Button variant="dark" type="submit" value="Signup">Sign up </Button>
 
         </form>
-      </div>
+      </Layout>
     )
   }
 export default Signup;
+// <Button variant="warning"><Link to="/">Return to Login</Link></Button>

@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import {Redirect} from 'react-router-dom';
+
 import Layout from './Layout';
 
 import Login from "./Login";
@@ -101,6 +103,9 @@ class Home extends Component {
   });
 }
   render() {
+    if(this.state.loggedIn) {
+      return <Redirect to= "/Dashboard" />;
+    }
     return (
       <div>
       <Layout>

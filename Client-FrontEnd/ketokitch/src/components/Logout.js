@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {  Link, NavLink } from 'react-router-dom';
-import { Button, Container } from 'react-bootstrap';
+import {Button} from 'react-bootstrap';
 import Login from './Login';
+import Layout from './Layout';
 
 
 
@@ -17,21 +18,20 @@ import Login from './Login';
 // }
 // `;
 
-//Button redirect to login
-
-//button redirect to signup
+// this.state=loggedIn: true
+// then change state to loggedIn:false
 
 class Logout extends Component {
   render() {
     return (
 
     <div >
-      <Container>
+      <Layout>
         <h1> Come back soon! </h1>
-        <Button><Link to="/">Return to Login</Link></Button>
-      </Container>
+        <Button variant="warning"><Link to="/">Return to Login</Link></Button>
+      </Layout>
     </div>
-)
-}
+    )
+  }
 }
 export default Logout;
