@@ -47,7 +47,7 @@ class Home extends Component {
     .then(response => {
       console.log(response, "Token success");
       this.setState({
-        user: {... this.state.user},
+        user: {...this.state.user},
         loggedIn: true,
       })
       localStorage.setItem('user', response.token);
@@ -88,17 +88,17 @@ class Home extends Component {
     }
 
   handleEmailChange = e => {
-    this.setState({user: {... this.state.user, email:
+    this.setState({user: {...this.state.user, email:
     e.target.value}
   });
 }
   handleUsernameChange = e => {
-    this.setState({user: {... this.state.user, username:
+    this.setState({user: {...this.state.user, username:
     e.target.value}
   });
 }
   handlePasswordChange = e => {
-    this.setState({user: {... this.state.user, password:
+    this.setState({user: {...this.state.user, password:
     e.target.value}
   });
 }
