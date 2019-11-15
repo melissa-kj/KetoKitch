@@ -1,5 +1,6 @@
 package com.example.springbootmonolith.Service;
 
+import com.example.springbootmonolith.model.Recipe;
 import com.example.springbootmonolith.model.User;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -42,4 +43,5 @@ public interface UserService extends UserDetailsService {
     public HttpStatus deleteById(Long userId);
 
 
+    public Iterable<Recipe> listUserRecipes(String username);
 }

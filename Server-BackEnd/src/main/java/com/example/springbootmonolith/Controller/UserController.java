@@ -3,6 +3,7 @@ package com.example.springbootmonolith.Controller;
 import com.example.springbootmonolith.Repository.UserRepository;
 import com.example.springbootmonolith.Service.UserService;
 import com.example.springbootmonolith.model.JwtResponse;
+import com.example.springbootmonolith.model.Recipe;
 import com.example.springbootmonolith.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -18,9 +19,19 @@ public class UserController {
     @Autowired
     UserRepository userRepository;
 
-    @GetMapping("/hello")
-    public String helloWorld(){
-        return "Hello World";
+    @GetMapping("/user/{username}")
+    public User getUsers(String username){
+        return userService.getUser(username);
+    }
+
+    @GetMapping("/user/list")
+    public Iterable<User> listUsers(){
+        return userService.listUsers();
+    }
+
+    @GetMapping("/user/{username}/items")
+    public Iterable<Recipe> listUserRecipes(@PathVariable String username){
+        return userService.listUserRecipes(username);
     }
 
     @PostMapping("/login")
