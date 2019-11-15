@@ -14,6 +14,23 @@ console.log(faveRecipe);
 
 
 class Browse extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      current: 0
+    }
+  }
+  nextRecipe = () => {
+    console.log(this.state.current)
+    if (this.state.current < faveRecipes.length - 1)
+    this.setState({ current: this.state.current += 1})
+  }
+  prevRecipe = () => {
+    if (this.state.current > 0) {
+    this.setState({ current: this.state.current -= 1})
+    }
+
+  }
   render() {
     return (
       <div>
@@ -23,11 +40,11 @@ class Browse extends Component {
         <div className="flex-container">
 
             <nav className="nav">
-            <button className="btn btn-default">Previous Recipe</button>
-            <button className="btn btn-default">Next Recipe</button>
+            <button onClick={this.prevRecipe}>Previous Recipe</button>
+            <button  onClick={this.nextRecipe}>Next Recipe</button>
             </nav>
-            <RecipeHeader faveRecipe={faveRecipe}/>
-            <RecipePage faveRecipe={faveRecipe}/>
+            <RecipeHeader faveRecipe={faveRecipes[this.state.current]}/>
+            <RecipePage faveRecipe={faveRecipes[this.state.current]}/>
         </div>
         </Layout>
       </div>

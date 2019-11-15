@@ -5,7 +5,7 @@ class RecipePage extends Component {
     render() {
         return (
             <article className="article">
-                <img id="food_image" src="" alt="" className="img-thumbnail" />
+                <img src={this.props.faveRecipe.img} width="300px"/>
 
                 <div id="Ingredients_cont">
                   <h1>Ingredients</h1>

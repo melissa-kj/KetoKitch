@@ -36,7 +36,8 @@ class ListRecipes extends Component {
   render(){
     return (
       <Layout>
-        <h3> All Recipes </h3>
+        <h3> Share a Recipe With The Community </h3>
+        <h4> Enter your recipe into the form below </h4>
         {this.state.recipe.length > 0 && this.state.recipe.reverse().map(recipe => {
           return (
             <div className='recipeCard'>

@@ -12,7 +12,7 @@
     "activePrep": "20 minutes",
     "totalPrep": "1 hour, 20 minutes",
     "servings": 8,
-    "img": "./assets/keto-mac-and-cheese.jpg"
+    "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190912-keto-mac-and-cheese-0116-landscape-pf-1571156502.jpg?crop=0.668xw:1.00xh;0,0&resize=980:*"
   },
   {
     "title": "Keto Avocado Brownies",
@@ -35,7 +35,7 @@
     "activePrep": "15 minutes",
     "totalPrep": "1 hour, 25 minutes",
     "servings": 16,
-    "img": "./assets/keto-brownies.jpg"
+    "img": "https://hips.hearstapps.com/del.h-cdn.co/assets/18/10/640x959/gallery-1520445731-delish-keto-bronwies-pin-1.jpg?resize=768:*"
   },
   {
     "title": "Keto Broccoli Salad",
@@ -58,6 +58,6 @@
     "activePrep": "15 minutes",
     "totalPrep": "35 minutes",
     "servings": "4",
-    "img": "./assets/keto-broccoli-salad.jpg"
+    "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190625-keto-broccoli-salad-0166-landscape-pf-1561753084.jpg?crop=0.6668421052631579xw:1xh;center,top&resize=980:*"
   }
 ]

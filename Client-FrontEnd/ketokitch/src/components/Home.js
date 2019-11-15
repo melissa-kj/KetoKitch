@@ -5,6 +5,13 @@ import Layout from './Layout';
 
 import Login from "./Login";
 import Signup from "./Signup";
+import styled from 'styled-components';
+
+const Styled = styled.div`
+.splash{
+  background: url("./assets/welcome.png");
+}
+`;
 
 class Home extends Component {
   // state for both login and signup on home page
@@ -23,8 +30,8 @@ class Home extends Component {
 
   LogOn = (e) => {
     e.preventDefault();
-
-    fetch("http://192.168.1.6/login", {
+    console.log("test")
+    fetch("http://localhost:8081/login", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -54,7 +61,7 @@ class Home extends Component {
     Register = (e) => {
       e.preventDefault();
 
-      fetch("http://192.168.1.6/signup", {
+      fetch("http://localhost:8081/signup", {
         method: 'POST',
         headers: {
           'Content-Type' : 'application/json'
@@ -98,12 +105,12 @@ class Home extends Component {
 }
   render() {
     if(this.state.loggedIn) {
-      return <Redirect to= "/Dashboard" />;
+      return <Redirect to= "/Browse" />;
     }
     return (
-      <div>
+      <div className="splash">
       <Layout>
-        <h1>welcome to the keto kitch </h1>
+
         <Login
         username={this.state.username}
         password={this.state.password}
