@@ -36,13 +36,14 @@ class ListRecipes extends Component {
   render(){
     return (
       <Layout>
-        <h1> All Recipes </h1>
-        {this.state.recipe.length > 0 && this.state.recipe.map(recipe => {
+        <h3> All Recipes </h3>
+        {this.state.recipe.length > 0 && this.state.recipe.reverse().map(recipe => {
           return (
             <div className='recipeCard'>
-              <img className='recipePhoto' src={recipe.img} />
+              <img className='recipePhoto' src={recipe.image} />
               <h3>{recipe.title}</h3>
-              <p>Prep time: {recipe.prep_min} minutes</p>
+              <p>Prep time: {recipe.prep_time}</p>
+              <p>Net carbs per serving: {recipe.net_carbs}</p>
 
               <h4>Ingredients</h4>
               <ul>
