@@ -13,7 +13,7 @@ class ListRecipes extends Component {
   }
 
   componentDidMount = () => {
-    fetch("http://localhost:8080/recipe/list", {
+    fetch("http://192.168.1.6/recipe/list", {
       method: 'GET',
       headers: {
         'Authorization':'Bearer ' +
@@ -40,11 +40,12 @@ class ListRecipes extends Component {
         {this.state.recipe.length > 0 && this.state.recipe.reverse().map(recipe => {
           return (
             <div className='recipeCard'>
+              <div className='recipeTop'>
               <img className='recipePhoto' src={recipe.image} />
               <h3>{recipe.title}</h3>
               <p>Prep time: {recipe.prep_time}</p>
-              <p>Net carbs per serving: {recipe.net_carbs}</p>
-
+              <p>Net carbs per serving: {recipe.net_carbs}</p></div>
+              <div className='recipeBody'>
               <h4>Ingredients</h4>
               <ul>
               <li>{recipe.ingredients}</li>
@@ -55,6 +56,7 @@ class ListRecipes extends Component {
               <li>{recipe.instructions}</li>
               </ol>
               </div>
+            </div>
           );
         })}
         </Layout>

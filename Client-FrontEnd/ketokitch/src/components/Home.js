@@ -18,19 +18,13 @@ class Home extends Component {
       },
       loggedIn: false
     }
-    // this.routeLogin = this.routeLogin.bind(this);
-    // this.routeSignup = this.routeSignup.bind(this);
-    //
-    // routeLogin() {
-    //   let path=`/login`;
-    //   this.props.history.push(path);
-    // }
+
   }
 
   LogOn = (e) => {
     e.preventDefault();
 
-    fetch("http://localhost:8080/login", {
+    fetch("http://192.168.1.6/login", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -60,7 +54,7 @@ class Home extends Component {
     Register = (e) => {
       e.preventDefault();
 
-      fetch("http://localhost:8080/signup", {
+      fetch("http://192.168.1.6/signup", {
         method: 'POST',
         headers: {
           'Content-Type' : 'application/json'
@@ -131,4 +125,3 @@ class Home extends Component {
   }
 }
 export default Home;
-// <Button><Link to="/">Return to Login</Link></Button>

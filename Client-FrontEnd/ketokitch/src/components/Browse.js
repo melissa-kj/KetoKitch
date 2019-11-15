@@ -18,7 +18,7 @@ class Browse extends Component {
     return (
       <div>
         <NavigationBar />
-          <h1> Browse Our Favorite Keto Recipes! </h1>
+          <h2> Browse Our Favorite Keto Recipes! </h2>
         <Layout>
         <div className="flex-container">
 

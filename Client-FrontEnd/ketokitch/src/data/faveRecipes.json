@@ -1,69 +1,63 @@
 [
   {
-    "title": "Chicken Tikka Masala",
+    "title": "Keto Mac and Cheese",
     "byline": {
-      "name": "Nigella Lawson",
-      "source": "https://cooking.nytimes.com/recipes/5593-chicken-and-apricot-masala"
+      "name": "LENA ABRAHAM",
+      "source": "https://www.delish.com/cooking/nutrition/a29024668/keto-mac-and-cheese-recipe/"
     },
     "ingredients": [
-      "Dried apricots",
-      "6 garlic cloves, finely grated",
-      "4 teaspoons finely grated peeled ginger",
-      "4 teaspoons ground turmeric",
-      "2 teaspoons garam masala",
-      "1 tablespoon kosher salt",
-      "2 pounds skinless, boneless chicken breasts",
-      "3 tablespoons ghee (clarified butter) or vegetable oil",
-      "1 small onion, thinly sliced..."
+      "Butter, for baking dish", "2 medium heads cauliflower, cut into florets", "2 tbsp. extra-virgin olive oil", "Kosher salt", "1 c. heavy cream", "6 oz. cream cheese, cut into cubes", "4 c. shredded cheddar", "2 c. shredded mozzarella", "1 tbsp. hot sauce (optional)", "Freshly ground black pepper", "FOR THE TOPPING", "4 oz. pork rinds, crushed", "1/4 c. freshly grated Parmesan", "1 tbsp. extra-virgin olive oil", "2 tbsp. freshly chopped parsley, for garnish"
     ],
-    "preparation": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "activePrep": "45 minutes",
-    "totalPrep": "1 hour",
-    "servings": 6,
-    "img": "https://s23209.pcdn.co/wp-content/uploads/2019/02/Easy-Chicken-Tikka-MasalaIMG_8253.jpg"
-  },
-  {
-    "title": "Eggs Benedict",
-    "byline": {
-      "name": "Alison Roman",
-      "source": "https://cooking.nytimes.com/recipes/1018626-eggs-benedict"
-    },
-    "ingredients": [
-      "Hollandaise Sauce",
-      "1 tablespoon white distilled vinegar",
-      "Kosher salt",
-      "8 large eggs",
-      "4 English muffins, split",
-      "8 slices Canadian bacon",
-      "2 tablespoons unsalted butter",
-      "1/2 cup chopped chives"
-    ],
-    "preparation": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "preparation": "Preheat oven to 375 and butter a 9”-x-13” baking dish. In a large bowl, toss cauliflower with 2 tablespoons oil and season with salt. Spread cauliflower onto two large baking sheets and roast until tender and lightly golden, about 40 minutes. Meanwhile, in a large pot over medium heat, heat cream. Bring up to a simmer, then decrease heat to low and stir in cheeses until melted. Remove from heat, add hot sauce if using and season with salt and pepper, then fold in roasted cauliflower. Taste and season more if needed. Transfer mixture to prepared baking dish. In a medium bowl stir to combine pork rinds, Parmesan, and oil. Sprinkle mixture in an even layer over cauliflower and cheese. Bake until golden, 15 minutes. If desired, turn oven to broil to toast topping further, about 2 minutes. Garnish with parsley before serving.",
     "activePrep": "20 minutes",
-    "totalPrep": "25 minutes",
-    "servings": 4,
-    "img": "https://prods3.imgix.net/images/articles/2017_08/Non-Feature-eggs-benedict-recipe-breakfast1.jpg?auto=format%2Ccompress&dpr=2.63&ixjsv=2.2.3&q=38&w=370"
+    "totalPrep": "1 hour, 20 minutes",
+    "servings": 8,
+    "img": "./assets/keto-mac-and-cheese.jpg"
   },
   {
-    "title": "Nectarine tart",
+    "title": "Keto Avocado Brownies",
     "byline": {
-      "name": "Florence Fabricant",
-      "source": "https://cooking.nytimes.com/recipes/12697-nectarine-tart?module=Recipe+of+The+Day&pgType=homepage&action=click"
+      "name": "LENA ABRAHAM",
+      "source": "https://www.delish.com/cooking/nutrition/a58586/keto-brownies-recipe/"
     },
     "ingredients": [
-      "1.5 cups flour",
-      "1/2 teaspoon salt",
-      "4 teaspoons sugar",
-      "11 teaspoons cold unsalted butter",
-      "1 egg yolk, beaten",
-      "3 pounds nectarines (or plums, peaches, figs, etc.)",
-      "6 tablespoons red currant jelly, or other preserves, depending on fruit",
-      "1 cup crème fraîche, for serving"
+      "4 large eggs",
+      "2 ripe avocados",
+      "1/2 c. (1 stick) melted butter",
+      "6 tbsp. unsweetened peanut butter",
+      "2 tsp. baking soda",
+      "2/3 c. unsweetened cocoa powder",
+      "2 tsp. pure vanilla extract",
+      "1/2 tsp. kosher salt",
+      "Flaky sea salt (optional)"
     ],
-    "preparation": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "activePrep": "40 minutes",
-    "totalPrep": "1 hour 30 minutes",
-    "servings": "8",
-    "img": "https://static01.nyt.com/images/2012/08/22/dining/22PIE/22PIE-articleLarge-v3.jpg"
+    "preparation": "Preheat oven to 350 and line a 8”-x-8” square pan with parchment paper. In a blender or food processor, combine all ingredients except flaky sea salt and blend until smooth. Transfer batter to prepared baking pan and smooth top with a spatula. Top with flaky sea salt, if using. Bake until brownies are soft but not at all wet to the touch, 25 to 30 minutes. Let cool 25 to 30 minutes before slicing and serving.",
+    "activePrep": "15 minutes",
+    "totalPrep": "1 hour, 25 minutes",
+    "servings": 16,
+    "img": "./assets/keto-brownies.jpg"
+  },
+  {
+    "title": "Keto Broccoli Salad",
+    "byline": {
+      "name": "LENA ABRAHAM",
+      "source": "https://www.delish.com/cooking/nutrition/a28186450/keto-broccoli-salad-recipe/"
+    },
+    "ingredients": [
+      "FOR THE SALAD",
+      "kosher salt",
+      "3 heads broccoli, cut into bite-size pieces",
+      "1/2 c. shredded Cheddar",
+      "1/4 red onion, thinly sliced",
+      "1/4 c. toasted sliced almonds",
+      "3 slices bacon, cooked and crumbled",
+      "2 tbsp. freshly chopped chives ",
+      "FOR THE DRESSING", "2/3 c. mayonnaise", "3 tbsp. apple cider vinegar", "1 tbsp. dijon mustard", "Kosher salt", "Freshly ground black pepper"
+    ],
+    "preparation": "In a medium pot or saucepan, bring 6 cups of salted water to a boil. While waiting for the water to boil, prepare a large bowl with ice water. Add broccoli florets to the boiling water and cook until tender, 1 to 2 minutes. Remove with a slotted spoon and place in the prepared bowl of ice water. When cool, drain florets in a colander. In a medium bowl, whisk to combine dressing ingredients. Season to taste with salt and pepper. Combine all salad ingredients in a large bowl and pour over dressing. Toss until ingredients are combined and fully coated in dressing. Refrigerate until ready to serve.",
+    "activePrep": "15 minutes",
+    "totalPrep": "35 minutes",
+    "servings": "4",
+    "img": "./assets/keto-broccoli-salad.jpg"
   }
 ]
