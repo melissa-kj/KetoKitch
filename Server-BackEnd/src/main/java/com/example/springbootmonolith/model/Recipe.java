@@ -28,13 +28,7 @@ public class Recipe {
     private String img;
 
     @Column
-    private String course;
-
-    @Column
     private int prep_min;
-
-    @Column
-    private String net_carbs;
 
     @Column
     private String ingredients;
@@ -42,8 +36,6 @@ public class Recipe {
     @Column
     private String instructions;
 
-    @Column
-    private String keywords;
 
 
     @JsonIgnore
@@ -99,17 +91,9 @@ public class Recipe {
 
     public void setImg(String img) { this.img = img; }
 
-    public String getCourse() { return course; }
-
-    public void setCourse(String course) { this.course = course; }
-
     public int getPrepMin() { return prep_min; }
 
     public void setPrepMin(int prep_min) { this.prep_min = prep_min; }
-
-    public String getNetCarbs() { return net_carbs; }
-
-    public void setNetCarbs(String net_carbs) { this.net_carbs = net_carbs; }
 
     public String getIngredients() { return ingredients; }
 
@@ -118,8 +102,4 @@ public class Recipe {
     public String getInstructions() { return instructions; }
 
     public void setInstructions(String instructions) { this.instructions = instructions; }
-
-    public String getKeywords() { return keywords; }
-
-    public void setKeywords(String keywords) { this.keywords = keywords; }
 }

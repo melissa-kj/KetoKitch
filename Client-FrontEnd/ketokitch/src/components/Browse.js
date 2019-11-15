@@ -4,7 +4,7 @@ import './style.css';
 import NavigationBar from './NavigationBar';
 import Layout from './Layout';
 
-import Recipe from './Recipe';
+import RecipePage from './RecipePage';
 import RecipeHeader from './RecipeHeader';
 
 import recipes from '../data/recipes';
@@ -18,7 +18,7 @@ class Browse extends Component {
     return (
       <div>
         <NavigationBar />
-            <Layout><h1> Browse Our Favorite Recipes </h1></Layout>
+          <h1> Browse Our Favorite Keto Recipes </h1>
         <Layout>
         <div className="flex-container">
 
@@ -27,7 +27,7 @@ class Browse extends Component {
             <button className="btn btn-default">Next Recipe</button>
             </nav>
             <RecipeHeader recipe={recipe}/>
-            <Recipe recipe={recipe}/>
+            <RecipePage recipe={recipe}/>
         </div>
         </Layout>
       </div>
