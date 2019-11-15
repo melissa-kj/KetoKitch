@@ -27,7 +27,7 @@ import Footer from './components/Footer';
             // <Route path="/dashboard" component={Dashboard} />
           </Switch>
         </Router>
-        <Footer />
+        
       </div>
     );
   }

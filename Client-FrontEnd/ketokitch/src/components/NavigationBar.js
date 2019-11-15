@@ -22,7 +22,7 @@ const NavigationBar = (props) => (
 
   <Styles>
     <Navbar expand="lg">
-      <Navbar.Brand>The Keto Kitch</Navbar.Brand>
+      <Navbar.Brand>Keto Kitch</Navbar.Brand>
       <Navbar.Toggle area-controls="basic-nav-bar" />
       <Navbar.Collapse id="basic-nav-bar">
         <Nav className = "ml-auto">

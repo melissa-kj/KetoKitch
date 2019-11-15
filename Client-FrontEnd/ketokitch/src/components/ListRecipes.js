@@ -37,21 +37,25 @@ class ListRecipes extends Component {
     return (
       <Layout>
         <h1> All Recipes </h1>
+        {this.state.recipe.length > 0 && this.state.recipe.map(recipe => {
+          return (
             <div className='recipeCard'>
-              <img className='recipePhoto' src={Recipe.img} />
-              <h3>{Recipe.title}</h3>
-              <p>Prep time: {Recipe.prep_min} minutes</p>
+              <img className='recipePhoto' src={recipe.img} />
+              <h3>{recipe.title}</h3>
+              <p>Prep time: {recipe.prep_min} minutes</p>
 
               <h4>Ingredients</h4>
               <ul>
-              <li>{Recipe.ingredients}</li>
+              <li>{recipe.ingredients}</li>
               </ul>
 
               <h4>Instructions</h4>
               <ol>
-              <li>{Recipe.instructions}</li>
+              <li>{recipe.instructions}</li>
               </ol>
-        </div>
+              </div>
+          );
+        })}
         </Layout>
       )
     }
