@@ -9,7 +9,7 @@ import styled from 'styled-components';
 
 const Styled = styled.div`
 .splash{
-  background: url("./assets/welcome.png");
+  background: url("ketokitch/src/assets/Welcome.png");
 }
 `;
 
