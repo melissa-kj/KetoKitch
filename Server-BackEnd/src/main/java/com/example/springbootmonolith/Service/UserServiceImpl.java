@@ -1,7 +1,6 @@
 package com.example.springbootmonolith.Service;
 
 import com.example.springbootmonolith.Config.JwtUtil;
-import com.example.springbootmonolith.Repository.CommentRepository;
 import com.example.springbootmonolith.Repository.RecipeRepository;
 import com.example.springbootmonolith.Repository.UserRepository;
 import com.example.springbootmonolith.model.User;
