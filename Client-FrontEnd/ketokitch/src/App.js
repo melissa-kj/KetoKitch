@@ -6,6 +6,8 @@ import Dashboard from './components/Dashboard';
 import Profile from './components/Profile';
 import Browse from './components/Browse';
 import Logout from './components/Logout';
+import Footer from './components/Footer';
+
 
 
 
@@ -25,6 +27,7 @@ import Logout from './components/Logout';
             // <Route path="/dashboard" component={Dashboard} />
           </Switch>
         </Router>
+        <Footer />
       </div>
     );
   }

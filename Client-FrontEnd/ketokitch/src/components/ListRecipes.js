@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Layout from './Layout';
+import Recipe from './Recipe';
 
 class ListRecipes extends Component {
 
@@ -30,8 +31,6 @@ class ListRecipes extends Component {
           recipeLoaded: true,
         })
       })
-
-      this.state.recipes
   }
 
   render(){
@@ -39,18 +38,18 @@ class ListRecipes extends Component {
       <Layout>
         <h1> All Recipes </h1>
             <div className='recipeCard'>
-              <img className='recipePhoto' src={recipe.img} />
-              <h3>{recipe.title}</h3>
-              <p>Prep time: {recipe.prep_min} minutes</p>
+              <img className='recipePhoto' src={Recipe.img} />
+              <h3>{Recipe.title}</h3>
+              <p>Prep time: {Recipe.prep_min} minutes</p>
 
               <h4>Ingredients</h4>
               <ul>
-              <li>{recipe.ingredients}</li>
+              <li>{Recipe.ingredients}</li>
               </ul>
 
               <h4>Instructions</h4>
               <ol>
-              <li>{recipe.instructions}</li>
+              <li>{Recipe.instructions}</li>
               </ol>
         </div>
         </Layout>

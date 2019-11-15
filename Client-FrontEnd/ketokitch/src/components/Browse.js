@@ -7,10 +7,10 @@ import Layout from './Layout';
 import RecipePage from './RecipePage';
 import RecipeHeader from './RecipeHeader';
 
-import recipes from '../data/recipes';
+import faveRecipes from '../data/faveRecipes';
 
-const recipe = recipes[0];
-console.log(recipe);
+const faveRecipe = faveRecipes[0];
+console.log(faveRecipe);
 
 
 class Browse extends Component {
@@ -18,7 +18,7 @@ class Browse extends Component {
     return (
       <div>
         <NavigationBar />
-          <h1> Browse Our Favorite Keto Recipes </h1>
+          <h1> Browse Our Favorite Keto Recipes! </h1>
         <Layout>
         <div className="flex-container">
 
@@ -26,8 +26,8 @@ class Browse extends Component {
             <button className="btn btn-default">Previous Recipe</button>
             <button className="btn btn-default">Next Recipe</button>
             </nav>
-            <RecipeHeader recipe={recipe}/>
-            <RecipePage recipe={recipe}/>
+            <RecipeHeader faveRecipe={faveRecipe}/>
+            <RecipePage faveRecipe={faveRecipe}/>
         </div>
         </Layout>
       </div>
