@@ -1,18 +1,24 @@
 import React, { Component } from "react";
 import {Redirect} from 'react-router-dom';
+import Background from "../assets/Welcome.png";
 
 import Layout from './Layout';
 
 import Login from "./Login";
 import Signup from "./Signup";
-import styled from 'styled-components';
+// import styled from 'styled-components';
 
-const Styled = styled.div`
-.splash{
-  background: url("ketokitch/src/assets/Welcome.png");
+// const Styled = styled.div`
+//   height: 100vh;
+//   background-image: url();
+// `;
+
+const pageStyle = {
+  height: '100vh',
+  backgroundImage: `url(${Background})`,
+  // backgroundRepeat: 'no-repeat',
+  // backgroundSize: 'cover'
 }
-`;
-
 class Home extends Component {
   // state for both login and signup on home page
   constructor(props) {
@@ -108,7 +114,7 @@ class Home extends Component {
       return <Redirect to= "/Browse" />;
     }
     return (
-      <div className="splash">
+      <div style={pageStyle} className="splash">
       <Layout>
 
         <Login
