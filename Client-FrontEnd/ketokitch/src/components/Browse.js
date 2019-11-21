@@ -35,17 +35,19 @@ class Browse extends Component {
     return (
       <div>
         <NavigationBar />
-          <h2> Browse Our Favorite Keto Recipes! </h2>
-        <Layout>
-        <div className="flex-container">
+          <Layout>
 
-            <nav className="nav">
-            <button onClick={this.prevRecipe}>Previous Recipe</button>
-            <button  onClick={this.nextRecipe}>Next Recipe</button>
-            </nav>
+            <h2> Browse Our Favorite Keto Recipes! </h2>
+
+            <div className="flex-container">
+              <nav className="nav">
+                <button onClick={this.prevRecipe}>Previous Recipe</button>
+                <button  onClick={this.nextRecipe}>Next Recipe</button>
+              </nav>
+
             <RecipeHeader faveRecipe={faveRecipes[this.state.current]}/>
             <RecipePage faveRecipe={faveRecipes[this.state.current]}/>
-        </div>
+          </div>
         </Layout>
       </div>
     );

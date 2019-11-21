@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {Redirect} from 'react-router-dom';
-import Background from "../assets/Welcome.png";
+import Background from "../assets/DDD4914F-0D85-4DF0-BA79-D8D008FB6EE2_1_105_c.jpeg";
 
 import Layout from './Layout';
 
@@ -16,8 +16,8 @@ import Signup from "./Signup";
 const pageStyle = {
   height: '100vh',
   backgroundImage: `url(${Background})`,
-  // backgroundRepeat: 'no-repeat',
-  // backgroundSize: 'cover'
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover'
 }
 class Home extends Component {
   // state for both login and signup on home page

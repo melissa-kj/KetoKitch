@@ -8,7 +8,9 @@
     "ingredients": [
       "Butter, for baking dish", "2 medium heads cauliflower, cut into florets", "2 tbsp. extra-virgin olive oil", "Kosher salt", "1 c. heavy cream", "6 oz. cream cheese, cut into cubes", "4 c. shredded cheddar", "2 c. shredded mozzarella", "1 tbsp. hot sauce (optional)", "Freshly ground black pepper", "FOR THE TOPPING", "4 oz. pork rinds, crushed", "1/4 c. freshly grated Parmesan", "1 tbsp. extra-virgin olive oil", "2 tbsp. freshly chopped parsley, for garnish"
     ],
-    "preparation": "Preheat oven to 375 and butter a 9”-x-13” baking dish. In a large bowl, toss cauliflower with 2 tablespoons oil and season with salt. Spread cauliflower onto two large baking sheets and roast until tender and lightly golden, about 40 minutes. Meanwhile, in a large pot over medium heat, heat cream. Bring up to a simmer, then decrease heat to low and stir in cheeses until melted. Remove from heat, add hot sauce if using and season with salt and pepper, then fold in roasted cauliflower. Taste and season more if needed. Transfer mixture to prepared baking dish. In a medium bowl stir to combine pork rinds, Parmesan, and oil. Sprinkle mixture in an even layer over cauliflower and cheese. Bake until golden, 15 minutes. If desired, turn oven to broil to toast topping further, about 2 minutes. Garnish with parsley before serving.",
+    "preparation": [
+      "Preheat oven to 375 and butter a 9”-x-13” baking dish.", "In a large bowl, toss cauliflower with 2 tablespoons oil and season with salt. Spread cauliflower onto two large baking sheets and roast until tender and lightly golden, about 40 minutes.", "Meanwhile, in a large pot over medium heat, heat cream. Bring up to a simmer, then decrease heat to low and stir in cheeses until melted. Remove from heat, add hot sauce if using and season with salt and pepper, then fold in roasted cauliflower. Taste and season more if needed. Transfer mixture to prepared baking dish.", "In a medium bowl stir to combine pork rinds, Parmesan, and oil. Sprinkle mixture in an even layer over cauliflower and cheese. Bake until golden, 15 minutes. If desired, turn oven to broil to toast topping further, about 2 minutes. Garnish with parsley before serving."
+    ],
     "activePrep": "20 minutes",
     "totalPrep": "1 hour, 20 minutes",
     "servings": 8,
@@ -31,7 +33,9 @@
       "1/2 tsp. kosher salt",
       "Flaky sea salt (optional)"
     ],
-    "preparation": "Preheat oven to 350 and line a 8”-x-8” square pan with parchment paper. In a blender or food processor, combine all ingredients except flaky sea salt and blend until smooth. Transfer batter to prepared baking pan and smooth top with a spatula. Top with flaky sea salt, if using. Bake until brownies are soft but not at all wet to the touch, 25 to 30 minutes. Let cool 25 to 30 minutes before slicing and serving.",
+    "preparation": [
+      "Preheat oven to 350 and line a 8”-x-8” square pan with parchment paper.", "In a blender or food processor, combine all ingredients except flaky sea salt and blend until smooth.", "Transfer batter to prepared baking pan and smooth top with a spatula. Top with flaky sea salt, if using.", "Bake until brownies are soft but not at all wet to the touch, 25 to 30 minutes.", "Let cool 25 to 30 minutes before slicing and serving."
+    ],
     "activePrep": "15 minutes",
     "totalPrep": "1 hour, 25 minutes",
     "servings": 16,
@@ -54,10 +58,163 @@
       "2 tbsp. freshly chopped chives ",
       "FOR THE DRESSING", "2/3 c. mayonnaise", "3 tbsp. apple cider vinegar", "1 tbsp. dijon mustard", "Kosher salt", "Freshly ground black pepper"
     ],
-    "preparation": "In a medium pot or saucepan, bring 6 cups of salted water to a boil. While waiting for the water to boil, prepare a large bowl with ice water. Add broccoli florets to the boiling water and cook until tender, 1 to 2 minutes. Remove with a slotted spoon and place in the prepared bowl of ice water. When cool, drain florets in a colander. In a medium bowl, whisk to combine dressing ingredients. Season to taste with salt and pepper. Combine all salad ingredients in a large bowl and pour over dressing. Toss until ingredients are combined and fully coated in dressing. Refrigerate until ready to serve.",
+    "preparation": [
+      "In a medium pot or saucepan, bring 6 cups of salted water to a boil.", "While waiting for the water to boil, prepare a large bowl with ice water.", "Add broccoli florets to the boiling water and cook until tender, 1 to 2 minutes. Remove with a slotted spoon and place in the prepared bowl of ice water. When cool, drain florets in a colander.", "In a medium bowl, whisk to combine dressing ingredients. Season to taste with salt and pepper.", "Combine all salad ingredients in a large bowl and pour over dressing. Toss until ingredients are combined and fully coated in dressing.", "Refrigerate until ready to serve."
+    ],
     "activePrep": "15 minutes",
     "totalPrep": "35 minutes",
     "servings": "4",
     "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190625-keto-broccoli-salad-0166-landscape-pf-1561753084.jpg?crop=0.6668421052631579xw:1xh;center,top&resize=980:*"
-  }
+  },
+{
+  "title": "Absolutely Scrumptious ‘Fried’ Chicken",
+  "byline": {
+    "name": "Paola van der Hulst",
+    "source": "https://www.gnom-gnom.com/keto-fried-chicken-waffles/"
+  },
+  "ingredients": [
+    "**FOR THE MARINADE**",
+    "1 pound chicken tenderloins or chicken breast sliced lengthwise into 2/3 in. thick slices",
+    "1/2 cup sour cream",
+    "1 tablespoon white wine vinegar",
+    "1 teaspoon poultry seasoning",
+    "2 cloves garlic ran through a press",
+    "1/4 teaspoon freshly ground black pepper",
+    "kosher salt to taste",
+    "**FOR THE COATING**", "1 egg lightly beaten", "1 tablespoon sour cream", "2 1/2 cups crushed pork rinds crushed", "1/4 cup Parmesan cheese finely grated", "1 1/2 teaspoons paprika", "1 teaspoon oregano", "1/2 teaspoon garlic powder", "1/4 teaspoon onion powder", "1/4 teaspoon freshly ground black pepper", "cayenne pepper", "kosher salt to taste", "**SERVING SUGGESTIONS**", "1 batch gluten free & keto waffles", "sugar free syrup or maple syrup (if not keto)", "chives finely chopped"
+  ],
+  "preparation": [
+    "Rinse and pat dry your chicken pieces. Set aside.", "In a large bowl suitable for marinating, mix together the sour cream, vinegar, poultry seasoning, garlic, freshly ground black pepper and season to taste. Add in the chicken, cover with cling film and marinate in the fridge for at least two hours (though preferably overnight!)", "Preheat oven to 425°F/220°C. Line a rimmed baking tray with aluminum foil and place a rack over it. Brush with olive oil or cooking oil of choice.", "You will need three bowls for the three coatings. In bowl 1, place your almond flour (or more crushed pork rinds). In bowl 2, whisk your egg with sour cream. And in bowl 3, mix thoroughly together the crushed pork rinds, Parmesan cheese, paprika, oregano, garlic powder, onion powder, freshly ground black pepper, cayenne and season to taste with salt (will vary quite a bit depending on the saltiness of your pork rinds).", "Dip your chicken pieces one at a time in the almond flour, followed by the egg, followed by the pork rinds mixture. Place in the prepared baking tray.", "Serve right away with waffles, chives and a generous drizzle of syrup."
+  ],
+  "activePrep": "20 minutes",
+  "totalPrep": "40 minutes",
+  "servings": "4",
+  "img": "https://i0.wp.com/www.gnom-gnom.com/wp-content/uploads/2018/03/Gluten-Free-Low-Carb-Keto-Fried-Chicken-and-Waffles-by-Gnom-Gnom-5.jpg?w=700&ssl=1"
+},
+{
+  "title": "LIGHT 'N FLUFFY KETO WAFFLES",
+  "byline": {
+    "name": "Paola van der Hulst",
+    "source": "https://www.gnom-gnom.com/grain-free-keto-waffles/"
+  },
+  "ingredients": [
+    "2/3 cup almond flour",
+    "1/4 cup coconut flour",
+    "1 tablespoon psyllium husk ground",
+    "1 teaspoon xanthan gum",
+    "1 cup water",
+    "1/4 cup grass-fed butter or coconut oil",
+    "3 tablespoons erythritol or xylitol*",
+    "1/4 teaspoon kosher salt",
+    "3 eggs lightly beaten **", "1 teaspoon vanilla extract", "1 tablespoon sour cream", "1 1/2 teaspoon baking powder", "SERVING SUGGESTIONS", "sugar free syrup", "grass-fed butter", "berries", "whipped cream"
+  ],
+
+  "preparation": [
+    "Whisk together in a medium bowl almond flour, coconut flour, psyllium husk and xanthan gum. Set aside.", "Heat up water, butter, sweetener and salt in medium pot (or Dutch oven) until it just begins to simmer. Lower heat to low and add in flour mixture, mixing constantly to incorporate. Continue to cook and stir until the dough pulls away from the pan and forms into a ball, 1-3 minutes.", "Transfer dough back to the bowl and allow to cool for 5 minutes. The dough should still be warm, but not hot enough to scramble the eggs.", "Add in one egg at a time, mixing with an electric mixer until fully incorporated. Mix in vanilla extract and baking powder. The final dough should be very elastic.", "Allow the dough to rest for 10 minutes and heat up waffle iron on high in the meantime.", "Grease waffle iron well and spoon in the batter. It will be thick, so spread it out using a wet spatula (or wet the back of a spoon). Close waffle iron and cook for 8-12 minutes on high until fully golden and cooked through.", "To crisp up the waffles further (this largely depends on your waffle iron), you'll need to toast the pieces on low in your toaster or in a skillet over low heat. This will draw out the moisture from the coconut flour and give you nice and crisp edges.", "The waffles can be stored in an airtight container at room temp for 3 days. And the dough can be kept in the fridge for a day or two."
+  ],
+  "activePrep": "15 minutes",
+  "totalPrep": "45 minutes",
+  "servings": "8",
+  "img": "https://i1.wp.com/www.gnom-gnom.com/wp-content/uploads/2018/03/Grain-Free-Gluten-Free-Keto-Waffles-by-Gnom-Gnom-5-1.jpg?w=700&ssl=1"
+},
+{
+  "title": "SLOW COOKER PULLED SKIRT STEAK",
+  "byline": {
+    "name": "Paola van der Hulst",
+    "source": "https://www.gnom-gnom.com/slow-cooker-pulled-skirt-steak/"
+  },
+  "ingredients": [
+    "2 pounds skirt steak",
+    "1 teaspoon paprika sweet or smoked",
+    "1 teaspoon chili powder",
+    "1 teaspoon dried oregano",
+    "1 teaspoon kosher salt",
+    "1/2 teaspoon freshly ground black pepper",
+    "1/4 teaspoon ground cumin",
+    "orange zest",
+    "4 cloves garlic ran through a press", "1/4 cup freshly squeezed orange juice", "2 tablespoons gluten free soy sauce", "1 tablespoon red wine vinegar", "juice of one lemon", "2 cloves", "2 tablespoons extra virgin olive oil"
+  ],
+  "preparation": [
+    "Mix together in a small bowl paprika, chili powder, oregano, salt, pepper and cumin. Rub your seasoning on all sides of your skirt steak. Set aside.", "Mix together in a medium bowl orange zest, garlic, orange juice, soy sauce, vinegar, lemon juice, and cloves. Set aside.", "Pour in olive oil into your crock pot or slow cooker. Add your seasoned skirt steak and pour your orange juice mix over it. Cover and cook on low for 6 hours, turning over your beef half way through.", "Take your meat out of your slow cooker and allow it to rest for 10 minutes. Shred it with two forks and serve it right away."
+  ],
+  "activePrep": "10 minutes",
+  "totalPrep": "6 hours, 10 minutes",
+  "servings": "6",
+  "img": "https://i1.wp.com/www.gnom-gnom.com/wp-content/uploads/2017/08/Slow-Cooker-Pulled-Skirt-Steak-4.jpg?w=1000&ssl=1"
+},
+{
+  "title": "SMOKED SALMON & RICOTTA PASTRY ROLL-UP",
+  "byline": {
+    "name": "Paola van der Hulst",
+    "source": "https://www.gnom-gnom.com/keto-smoked-salmon-ricotta-roll-up/"
+  },
+  "ingredients": [
+    "FOR THE MARINADE",
+    "1 pound chicken tenderloins or chicken breast sliced lengthwise into 2/3 in. thick slices",
+    "1/2 cup sour cream",
+    "1 tablespoon white wine vinegar",
+    "1 teaspoon poultry seasoning",
+    "2 cloves garlic ran through a press",
+    "1/4 teaspoon freshly ground black pepper",
+    "kosher salt to taste",
+    "FOR THE COATING", "1 egg lightly beaten", "1 tablespoon sour cream", "2 1/2 cups crushed pork rinds crushed", "1/4 cup Parmesan cheese finely grated", "1 1/2 teaspoons paprika", "1 teaspoon oregano", "1/2 teaspoon garlic powder", "1/4 teaspoon onion powder", "1/4 teaspoon freshly ground black pepper", "cayenne pepper", "kosher salt to taste", "SERVING SUGGESTIONS", "1 batch our gluten free & keto waffles", "sugar free syrup or maple syrup (if not keto)", "chives finely chopped"
+  ],
+  "preparation": [
+    "Rinse and pat dry your chicken pieces. Set aside.", "In a large bowl suitable for marinating, mix together the sour cream, vinegar, poultry seasoning, garlic, freshly ground black pepper and season to taste. Add in the chicken, cover with cling film and marinate in the fridge for at least two hours (though preferably overnight!)", "Preheat oven to 425°F/220°C. Line a rimmed baking tray with aluminum foil and place a rack over it. Brush with olive oil or cooking oil of choice.", "You will need three bowls for the three coatings. In bowl 1, place your almond flour (or more crushed pork rinds). In bowl 2, whisk your egg with sour cream. And in bowl 3, mix thoroughly together the crushed pork rinds, Parmesan cheese, paprika, oregano, garlic powder, onion powder, freshly ground black pepper, cayenne and season to taste with salt (will vary quite a bit depending on the saltiness of your pork rinds).", "Dip your chicken pieces one at a time in the almond flour, followed by the egg, followed by the pork rinds mixture. Place in the prepared baking tray.", "Serve right away with waffles, chives and a generous drizzle of syrup."
+  ],
+  "activePrep": "20 minutes",
+  "totalPrep": "40 minutes",
+  "servings": "4",
+  "img": "https://i0.wp.com/www.gnom-gnom.com/wp-content/uploads/2017/09/Gluten-Free-Keto-Smoked-Salmon-Ricotta-Pastry-Roll-Up-by-Gnom-Gnom.jpg?w=1000&ssl=1"
+},
+{
+  "title": "5 and Waffles",
+  "byline": {
+    "name": "Paola van der Hulst",
+    "source": "https://www.gnom-gnom.com/keto-fried-chicken-waffles/"
+  },
+  "ingredients": [
+    "FOR THE MARINADE",
+    "1 pound chicken tenderloins or chicken breast sliced lengthwise into 2/3 in. thick slices",
+    "1/2 cup sour cream",
+    "1 tablespoon white wine vinegar",
+    "1 teaspoon poultry seasoning",
+    "2 cloves garlic ran through a press",
+    "1/4 teaspoon freshly ground black pepper",
+    "kosher salt to taste",
+    "FOR THE COATING", "1 egg lightly beaten", "1 tablespoon sour cream", "2 1/2 cups crushed pork rinds crushed", "1/4 cup Parmesan cheese finely grated", "1 1/2 teaspoons paprika", "1 teaspoon oregano", "1/2 teaspoon garlic powder", "1/4 teaspoon onion powder", "1/4 teaspoon freshly ground black pepper", "cayenne pepper", "kosher salt to taste", "SERVING SUGGESTIONS", "1 batch our gluten free & keto waffles", "sugar free syrup or maple syrup (if not keto)", "chives finely chopped"
+  ],
+  "preparation": [
+    "Rinse and pat dry your chicken pieces. Set aside.", "In a large bowl suitable for marinating, mix together the sour cream, vinegar, poultry seasoning, garlic, freshly ground black pepper and season to taste. Add in the chicken, cover with cling film and marinate in the fridge for at least two hours (though preferably overnight!)", "Preheat oven to 425°F/220°C. Line a rimmed baking tray with aluminum foil and place a rack over it. Brush with olive oil or cooking oil of choice.", "You will need three bowls for the three coatings. In bowl 1, place your almond flour (or more crushed pork rinds). In bowl 2, whisk your egg with sour cream. And in bowl 3, mix thoroughly together the crushed pork rinds, Parmesan cheese, paprika, oregano, garlic powder, onion powder, freshly ground black pepper, cayenne and season to taste with salt (will vary quite a bit depending on the saltiness of your pork rinds).", "Dip your chicken pieces one at a time in the almond flour, followed by the egg, followed by the pork rinds mixture. Place in the prepared baking tray.", "Serve right away with waffles, chives and a generous drizzle of syrup."
+  ],
+  "activePrep": "20 minutes",
+  "totalPrep": "40 minutes",
+  "servings": "4",
+  "img": "https://i0.wp.com/www.gnom-gnom.com/wp-content/uploads/2018/03/Gluten-Free-Low-Carb-Keto-Fried-Chicken-and-Waffles-by-Gnom-Gnom-12.jpg?w=700&ssl=1"
+},
+{
+  "title": "6 and Waffles",
+  "byline": {
+    "name": "Paola van der Hulst",
+    "source": "https://www.gnom-gnom.com/keto-fried-chicken-waffles/"
+  },
+  "ingredients": [
+    "FOR THE MARINADE",
+    "1 pound chicken tenderloins or chicken breast sliced lengthwise into 2/3 in. thick slices",
+    "1/2 cup sour cream",
+    "1 tablespoon white wine vinegar",
+    "1 teaspoon poultry seasoning",
+    "2 cloves garlic ran through a press",
+    "1/4 teaspoon freshly ground black pepper",
+    "kosher salt to taste",
+    "FOR THE COATING", "1 egg lightly beaten", "1 tablespoon sour cream", "2 1/2 cups crushed pork rinds crushed", "1/4 cup Parmesan cheese finely grated", "1 1/2 teaspoons paprika", "1 teaspoon oregano", "1/2 teaspoon garlic powder", "1/4 teaspoon onion powder", "1/4 teaspoon freshly ground black pepper", "cayenne pepper", "kosher salt to taste", "SERVING SUGGESTIONS", "1 batch our gluten free & keto waffles", "sugar free syrup or maple syrup (if not keto)", "chives finely chopped"
+  ],
+  "preparation": [
+    "Rinse and pat dry your chicken pieces. Set aside.", "In a large bowl suitable for marinating, mix together the sour cream, vinegar, poultry seasoning, garlic, freshly ground black pepper and season to taste. Add in the chicken, cover with cling film and marinate in the fridge for at least two hours (though preferably overnight!)", "Preheat oven to 425°F/220°C. Line a rimmed baking tray with aluminum foil and place a rack over it. Brush with olive oil or cooking oil of choice.", "You will need three bowls for the three coatings. In bowl 1, place your almond flour (or more crushed pork rinds). In bowl 2, whisk your egg with sour cream. And in bowl 3, mix thoroughly together the crushed pork rinds, Parmesan cheese, paprika, oregano, garlic powder, onion powder, freshly ground black pepper, cayenne and season to taste with salt (will vary quite a bit depending on the saltiness of your pork rinds).", "Dip your chicken pieces one at a time in the almond flour, followed by the egg, followed by the pork rinds mixture. Place in the prepared baking tray.", "Serve right away with waffles, chives and a generous drizzle of syrup."
+  ],
+  "activePrep": "20 minutes",
+  "totalPrep": "40 minutes",
+  "servings": "4",
+  "img": "https://i0.wp.com/www.gnom-gnom.com/wp-content/uploads/2018/03/Gluten-Free-Low-Carb-Keto-Fried-Chicken-and-Waffles-by-Gnom-Gnom-12.jpg?w=700&ssl=1"
+}
 ]
